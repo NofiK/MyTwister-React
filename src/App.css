@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  margin:0px;
+  height:100%;
+  font-family: 'Roboto', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.startSection{
+ text-align: center;
+ height:100vh;
+ background-color: rgb(24, 24, 24);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1{
+ padding-top: 200px;
+ font-size: 70px;
+ margin-top: 0;
+}
+h3{
+  font-size: 23px;
+}
+.icons{
+  color: rgb(143, 143, 143);
+}
+.navBar{
+  font-size: 50px;
+  margin: 340px auto 0 auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  width: 23%;
+}
+/* ---------------- */
+.addPlayerSection{
+  height:100vh;
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+ }
+ .addPlayerNav{
+  background-color: rgb(62, 44, 82);
+  display: flex;
+  font-size: 25px;
+ }
+ .arrowBack{
+  margin: auto 20px;
+ }
+ .playersDiv{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+ }
+ .plusBtn{
+  font-size: 50px;
+  color: rgb(252, 252, 252);
+  margin-left: 20px;
+ }
+.addPlayerDiv{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  float: left;
+}
+input{
+  height: 30px;
+  margin-left: 20px;
+
+}
+@media (min-width: 230px) and (max-width:355px) {
+  .navBar{
+    font-size: 50px;
+    margin: 180px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  h1{
+    padding-top: 200px;
+    font-size: 50px;
+    margin-top: 0;
+   }
+   h3{
+     font-size: 23px;
+   }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 355px) and (max-width:500px) {
+  .navBar{
+    font-size: 50px;
+    margin: 200px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  h1{
+    padding-top: 200px;
+    font-size: 50px;
+    margin-top: 0;
+   }
+   h3{
+     font-size: 23px;
+   }
 }
