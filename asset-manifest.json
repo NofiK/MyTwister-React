@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MyTwister-React/static/css/main.62337224.css",
+    "main.css": "/MyTwister-React/static/css/main.a57ec922.css",
     "main.js": "/MyTwister-React/static/js/main.01ca3db0.js",
     "index.html": "/MyTwister-React/index.html",
-    "main.62337224.css.map": "/MyTwister-React/static/css/main.62337224.css.map",
+    "main.a57ec922.css.map": "/MyTwister-React/static/css/main.a57ec922.css.map",
     "main.01ca3db0.js.map": "/MyTwister-React/static/js/main.01ca3db0.js.map"
   },
   "entrypoints": [
-    "static/css/main.62337224.css",
+    "static/css/main.a57ec922.css",
     "static/js/main.01ca3db0.js"
   ]
 }
