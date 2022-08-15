@@ -65,10 +65,12 @@ input{
 @media (min-width: 230px) and (max-width:355px) {
   .navBar{
     font-size: 50px;
-    margin: 180px auto 0 auto;
+    position: absolute;
+    bottom:30px;  
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 80%; 
+    left:35px
   }
   h1{
     padding-top: 130px;
@@ -79,14 +81,15 @@ input{
      font-size: 23px;
    }
 }
-
 @media (min-width: 355px) and (max-width:500px) {
   .navBar{
     font-size: 50px;
-    margin: 180px auto 0 auto;
+    position: absolute;
+    bottom:30px;  
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 80%; 
+    left:44px
   }
   h1{
     padding-top: 130px;

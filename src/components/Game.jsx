@@ -20,21 +20,22 @@ const Game = () => {
 	const [playerTurn, setPlayerTurn] = useState(0);
 
 	const startGame = () => {
-		setGameSettings({
-			...gameSettings,
-			backgroundColor: colors[Math.floor(Math.random() * 4)],
-			textColor: 'white',
-			title: players[playerTurn],
-			text: movement[Math.floor(Math.random() * 4)],
-		});
-		if (playerTurn > players.length - 2) {
-			setPlayerTurn(0);
+		if (players.length !== 0) {
+			setGameSettings({
+				...gameSettings,
+				backgroundColor: colors[Math.floor(Math.random() * 4)],
+				textColor: 'white',
+				title: players[playerTurn],
+				text: movement[Math.floor(Math.random() * 4)],
+			});
+			if (playerTurn > players.length - 2) {
+				setPlayerTurn(0);
+			} else {
+				setPlayerTurn(playerTurn + 1);
+			}
 		} else {
-			setPlayerTurn(playerTurn + 1);
+			alert('Добавте ігроків!');
 		}
-
-		console.log(players);
-		console.log(playerTurn);
 	};
 	const addNewPlayer = (player) => {
 		setPlayers([...players, player]);
