@@ -10,7 +10,7 @@ const Game = () => {
 		'rgb(14, 155, 14)',
 		'rgb(221, 221, 18)',
 	];
-	const movement = ['лівна нога', 'права нога', 'ліва рука', 'права рука'];
+	const movement = ['ліва нога', 'права нога', 'ліва рука', 'права рука'];
 	const [gameSettings, setGameSettings] = useState({
 		title: 'Поїхали!',
 		text: 'Торкніться екрану',
